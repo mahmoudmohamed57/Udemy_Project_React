@@ -1,0 +1,383 @@
+:root {
+  --color-light: #f7f9fa;
+}
+
+.udemy-navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 4px 4px #ddd;
+}
+
+.udemy-navbar .menu {
+  display: none;
+}
+
+.udemy-navbar #title,
+#categories {
+  margin: 0 10px;
+}
+
+.udemy-navbar .input {
+  width: 45%;
+}
+
+.udemy-navbar .input form {
+  display: flex;
+}
+
+.udemy-navbar .input input {
+  width: 100%;
+  background-color: var(--color-light);
+  outline: none;
+  border: 1px solid #222;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+.udemy-navbar #type-first {
+  margin: 0 5px;
+  white-space: nowrap;
+}
+
+.udemy-navbar #type-last {
+  margin: 0 5px;
+  white-space: nowrap;
+}
+
+.udemy-navbar .shopping {
+  margin: 0 10px;
+}
+
+.udemy-navbar #button-primary,
+#button-default,
+#button-search {
+  white-space: nowrap;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  color: #1c1d1f;
+  border: 1px solid #1c1d1f;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+#button-primary,
+#button-search,
+.earth {
+  background-color: transparent;
+}
+
+#button-primary:hover,
+#button-search:hover,
+.earth:hover {
+  background-color: var(--color-light);
+}
+
+#button-default {
+  background-color: #000;
+  margin: 0px 10px;
+  color: #fff;
+}
+
+.udemy-navbar .earth {
+  border: 1px solid #1c1d1f;
+  padding: 8px 8px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.udemy-navbar i {
+  color: black;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+  .udemy-navbar .input {
+    width: 43%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .udemy-navbar .input {
+    width: 41%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .udemy-navbar .input {
+    width: 39%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .udemy-navbar .input {
+    width: 37%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .udemy-navbar .input {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  .udemy-navbar #type-first {
+    display: none;
+  }
+  .udemy-navbar .input {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .udemy-navbar .input {
+    width: 37%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .udemy-navbar .input {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .udemy-navbar .input {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .udemy-navbar #type-last {
+    display: none;
+  }
+  .udemy-navbar .input {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .udemy-navbar .input,
+  .udemy-navbar .earth,
+  .udemy-navbar .shopping {
+    display: none;
+  }
+
+  .udemy-navbar #categories,
+  #button-primary,
+  #button-default {
+    display: none;
+  }
+  .udemy-navbar .menu {
+    display: block;
+  }
+}
+
+.udemy-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(244, 247, 248);
+  min-height: 60vh;
+  margin: 5px 5px;
+}
+
+.udemy-header .text {
+  height: 120px;
+  background-color: #fff;
+  margin: 70px 0px;
+  padding: 20px 20px;
+}
+
+.udemy-header .image {
+  width: 30%;
+  margin: 70px 0px;
+}
+
+.udemy-header .image img {
+  width: 50%;
+  height: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .udemy-header .text,
+  .udemy-header .image {
+    width: 60%;
+  }
+  .udemy-header .image {
+    order: -1;
+  }
+  .udemy-header .image {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .udemy-header .text {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .udemy-header .text {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .udemy-header .text {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .udemy-header .text {
+    height: 220px;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.courses {
+  margin: 0 20px;
+}
+
+.courses #sub-title {
+  font-size: x-large;
+}
+
+.courses .filter-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#Python,
+#Excel,
+#Web,
+#Javascript,
+#Data,
+#AWS,
+#Drawing {
+  border: none;
+  color: #666;
+  cursor: pointer;
+  outline: none;
+  font-size: large;
+  background-color: #fff;
+}
+
+#Python:hover,
+#Excel:hover,
+#Web:hover,
+#Javascript:hover,
+#Data:hover,
+#AWS:hover,
+#Drawing:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.course-card {
+  position: relative;
+}
+
+.course-hover {
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: none;
+  bottom: 100%;
+  left: 50%;
+
+  /* play here */
+  border: 1px solid#666;
+  background-color: #fff;
+  padding: 15px;
+  min-width: 325px;
+  min-height: 150px;
+}
+
+.course-hover .title:hover {
+  color: blueviolet;
+}
+
+.course-card:hover .course-hover {
+  display: block;
+}
+
+.single-page .coure-card {
+  position: fixed; /* try sticky */
+  right: 135px;
+  top: 77px;
+  width: 350px;
+  min-height: 85%;
+  background-color: #fff;
+}
+
+.single-page .header {
+  width: 800px;
+}
+
+.single-page .header a {
+  text-decoration: none;
+}
+
+.single-page .list {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.single-page .list a {
+  text-decoration: none;
+  color: #666;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.single-page .list a:hover {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: black;
+}
+
+.single-page .overview {
+  width: 700px;
+}
+
+.single-page .content {
+  width: 800px;
+}
+
+.single-page .instructors {
+  width: 700px;
+}
+
+.single-page .review {
+  width: 800px;
+}
+
+.single-page .requirements {
+  width: 700px;
+}
+
+.single-page .description {
+  width: 700px;
+}
+
+.single-page .student-feedback{
+  width: 700px;
+}
