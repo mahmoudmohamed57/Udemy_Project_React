@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from '../components/NavBar';
-import HomePageHeader from '../components/HomePageHeader';
-import Courses from '../components/Courses';
-import Categories from '../components/Categories';
-import Footer from '../components/Footer';
+import Navbar from '../components/HomePage/Navbar';
+import HomePageHeader from '../components/HomePage/HomePageHeader';
+import Courses from '../components/HomePage/Courses';
+import Categories from '../components/HomePage/Categories';
+import Footer from '../components/HomePage/Footer';
 
 const HomePage = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { context } from '../App';
-import { fetchData } from '../hooks/userFetchData';
+import { context } from '../../App';
+import { fetchData } from '../../hooks/userFetchData';
 
 function Navbar() {
   const [searchValue, setSearchValue] = useState('');

@@ -318,17 +318,20 @@ ul {
   display: block;
 }
 
+.single-page {
+  position: relative;
+}
+
 .single-page .coure-card {
-  position: fixed; /* try sticky */
-  right: 135px;
-  top: 77px;
-  width: 350px;
-  min-height: 85%;
+  margin-top: -135px;
+  position: sticky;
+  top: 43px;
+  width: 80%;
   background-color: #fff;
 }
 
 .single-page .header {
-  width: 800px;
+  width: 100%;
 }
 
 .single-page .header a {
@@ -336,9 +339,10 @@ ul {
 }
 
 .single-page .list {
-  width: 800px;
+  width: 700px;
   display: flex;
   justify-content: space-around;
+  margin-left: 20px;
 }
 
 .single-page .list a {
@@ -366,8 +370,13 @@ ul {
   width: 700px;
 }
 
+.single-page .instructors .instructor-img {
+  width: 150px;
+  height: 150px;
+}
+
 .single-page .review {
-  width: 800px;
+  width: 750px;
 }
 
 .single-page .requirements {
@@ -378,6 +387,22 @@ ul {
   width: 700px;
 }
 
-.single-page .student-feedback{
+.single-page .student-feedback {
   width: 700px;
+}
+
+.single-page .footer {
+  width: 100%;
+}
+
+@media screen and (max-width: 760px) {
+  .single-page .udemy-navbar {
+    width: 850px;
+  }
+  .single-page .header {
+    width: 850px;
+  }
+  .single-page .footer {
+    width: 850px;
+  }
 }

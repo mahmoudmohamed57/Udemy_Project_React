@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className='text-light bg-dark mt-5 p-5'>
+    <div className='footer text-light bg-dark mt-5 p-5'>
       <div className='d-flex flex-wrap justify-content-between'>
         <h5 className='px-2 mt-1'>
           Top companies choose Udemy Business to build in-demand career skills.

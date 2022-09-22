@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import CourseCard from './CourseCard';
-import { context } from '../App';
+import { context } from '../../App';
 
 /*
 Props are waiting for 

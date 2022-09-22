@@ -2,7 +2,7 @@ import React from 'react';
 
 function Categories() {
   return (
-    <div className='catgories mx-4'>
+    <div className='mx-4'>
       <h4>Top Categories</h4>
       <div className='row text-center py-3'>
         <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
