@@ -1,5 +1,5 @@
 import React from 'react';
-import Rate from './Rate';
+import Rate from '../CourseStars/Rate';
 import CreatedBy from './CreatBy';
 import { AiFillExclamationCircle } from 'react-icons/ai';
 
@@ -8,8 +8,8 @@ function SinglePageHeader(props) {
     <CreatedBy instructor={obj} key={Math.random()}></CreatedBy>
   ));
   return (
-    <div className='text-white bg-dark'>
-      <div className='header p-5'>
+    <div className='header text-white bg-dark'>
+      <div className='p-5'>
         <div className='develop d-flex pb-2'>
           <p>Development</p>
           <span className='mb-2 mx-2'>{'>'}</span>

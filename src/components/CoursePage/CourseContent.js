@@ -10,7 +10,9 @@ function CourseContent(props) {
   return props.isExpand ? (
     <Accordion>
       <Accordion.Item>
-        <Accordion.Header>{props.content[0]}</Accordion.Header>
+        <Accordion.Header>
+          <div className='d-flex'>{props.content[0]}</div>
+        </Accordion.Header>
         <Accordion.Body>{items}</Accordion.Body>
       </Accordion.Item>
     </Accordion>

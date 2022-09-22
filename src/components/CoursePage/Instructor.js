@@ -7,11 +7,11 @@ function Instructor(props) {
       <p>{props.instructor.Intro}</p>
       <div className='d-flex'>
         <img
-          className='rounded-circle w-25'
+          className='instructor-img rounded-circle'
           src={props.instructor.Image}
           alt='Nature'
         ></img>
-        <div className='px-4 pt-3'>
+        <div>
           <div className='d-flex'>
             <i className='fa-solid fa-star px-1 mt-1'></i>
             <p className='px-1'>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import SingelPage from './pages/SingelPage';
+import CoursePage from './pages/CoursePage';
 import userFetchData from './hooks/userFetchData';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path='/'>
             <Route index element={<HomePage />} />
-            <Route path='/:id/singlepage' element={<SingelPage />} />
+            <Route path='/:id/singlepage' element={<CoursePage />} />
           </Route>
         </Routes>
       </BrowserRouter>

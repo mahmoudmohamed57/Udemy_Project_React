@@ -10,8 +10,8 @@ function SinglePageOverview(props) {
   ));
 
   return (
-    <div className='overview m-5' id='overview'>
-      <div className='border border-2 p-2'>
+    <div className='m-5' id='overview'>
+      <div className='overview border border-2 p-2'>
         <h4>What you'll learn</h4>
         <div className='row'>{items}</div>
       </div>

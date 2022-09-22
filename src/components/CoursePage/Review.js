@@ -1,5 +1,5 @@
 import React from 'react';
-import Rate from './Rate';
+import Rate from '../CourseStars/Rate';
 
 function Review(props) {
   var name = props.review.name,
